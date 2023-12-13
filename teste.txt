@@ -1,0 +1,161 @@
+Teste de Redes (M od:01_Part_01)
+20 QuestõesNOME  : 
+TURMA : DATA  : 
+1. O meio de transmissão a ser fortem ente considerado, quando a interferência e
+a distância se constituir  num problema crítico de um projeto de rede, é?
+A cabo par trançado CAT6. B cabo de fibra óptica.
+C cabo STP. D cabo coaxial.
+2. Considere um ponto de acesso wirele ss que pode interligar os micros da rede
+cabeada aos micros conect ados à rede wireless, cria ndo uma única rede local,
+o AP está operando como?
+A multiplex. B hub.
+C bridge. D roteador.
+3. no Modelo OSI da ISO, constitui uma referência  para o funcionamento das
+redes de computadores. A camada que se refere às especificações de
+hardware é denominada:
+A enlace. B rede.
+C física. D controle de acesso ao meio.
+4. Dentre os equipamentos de inte rconexão de redes de computadores, os
+dispositivos que executam  filtro de tráfego são:
+A bridge, hub e repeater. B hub, switch e router.
+C router, bridge e switch. D switch, repeater e hub.Teste de Redes (Mod:01_Part_01) https://quizizz.com/print/quiz/60f2c34e051026001b459aa 5
+1 of 8 07/12/2023, 11:13
+5. São equipamentos de interconexão com as seguintes características: I.
+dispositivos que filtram e encaminham fr ames com base no endereço físico; II.
+dispositivos que filtram e encaminham frames com base no endereço lógico.
+Esses equipamentos são conheci dos, respectivamente, como:
+A router e bridge. B gateway e switch.
+C hub e bridge. D switch e router.
+6. Acerca de conceitos relacionados à Internet e intranet , assinale a opção
+correta.
+AIntranet é a me sma coisa que
+Internet, só que el a foi criada para
+ser acessada apenas por usuáriosexternos a determinada instituição. BA Internet é uma rede mundial de
+computadores, administrada pelogoverno norte-americano, paradisponibilizar informações domundo inteiro.
+CPara se acessar a Internet, basta
+ter um computador conectado narede elétrica, pois, com o adventodas redes sem fio, atualmente nãosão mais necessários cabos ou fiosde telefonia para o acesso.
+DFazer parte da Internet significa
+usufruir de diversos serviços, comocorreio eletrônico, acesso aconteúdo livre ou pago, sendonecessário, para ta nto, utilizar o
+protocolo TCP/IP.
+7. Os tipos básicos de t opologia física das redes  de computadores são?
+A barramento e anel. B barramento, anel e estrela.
+Canel e estrela.Dbarramento, anel, es trela, árvore e
+híbrida.
+8. Qual é a técnica de c ontrole de acesso ao me io baseada em contenção
+utilizada pela pela  Rede Ethernet ?
+A TDMA B CSMA/CD
+C CSMA/CA D CDMATeste de Redes (Mod:01_Part_01) https://quizizz.com/print/quiz/60f2c34e051026001b459aa 5
+2 of 8 07/12/2023, 11:139. Em relação à tecnologia Ethernet utilizada par a redes locais, é correto afirmar
+que:
+Apermite que a comunicação seja
+feita com fios de cobreconvencionais não blindados,semelhantes aos fios usados paraconectar telefones.
+Bpermite que a energia de
+alimentação seja transportada comfios de cobre convencionais nãoblindados, semelhantes aos fiosusados para telefonia.
+Catualmente consiste de cabos
+coaxiais aos quais todos oscomputadores são conectados.D  permite que a comunicação seja
+feita com fios de cobre devidamenteblindados, distintos dos fios usadospara conectar telefones.
+10. O hardware, cuja função é fornecer o ponto de acesso de  um computador a
+uma rede de computadores, é:
+Aa unidade central de
+processamento. Bo barramento de comunicação
+serial.
+Ca placa de rede.Da placa-mãe. 
+11. Acerca de redes de computadores e de  dispositivos usados nessas redes, é
+CORRETO afirmar que :
+ATecnologia Ethernet  permite que a
+energia seja transportada com fiosde cobre convencionais nãoblindados, semelhantes aos fiosusados para escuta telefônica.
+Bswitches tomam suas decisões de
+encaminhamento a partir dosendereços de rede, ao passo queos roteadores uti lizam os endereços
+físicos.
+Cem redes Ethernet , um domínio de
+broadcast é o segmento em quedois ou mais nós podem concorrerpelo uso do meio, o que provocacolisão.
+Dbridges e switches são
+funcionalmente idênticos;entretanto, os últimos,normalmenteimplementados em hardwarededicado, apresent am desempenho
+superior com relação aos primeiros.Teste de Redes (Mod:01_Part_01) https://quizizz.com/print/quiz/60f2c34e051026001b459aa 5
+3 of 8 07/12/2023, 11:1312. Com relação a redes de computadores e seus elementos de interconexão, o
+roteador, podemoa afirmar que:
+Adecide o que fazer com um
+datagrama, utilizando apenas oendereço de orig em e o tipo de
+protocolo utilizado.  Se o protocolo
+for TCP/IP, o roteador apenascaptura o datagrama do segmentode origem e o en via para todos os
+demais segmentos a eleconectados.Bé utilizado para inte rligar redes com
+diferentes protocolos MAC oudiferentes protocolos na camafísica.
+Cao receber um datagrama, analisa
+se o endereço de destino é umamáquina conectada a um de seus
+segmentos. Em caso negativo, eledevolve o datagrama à máquina deorigem informando a negação detransmissão e solicitando oendereço do próxim o roteador nesta
+rota a ser utilizado.
+Dé transparente às máquinas a ele
+interligadas. Quando duasmáquinas em redes distintas estãoem comunicação, o roteadorsituado entre as duas redes fica
+dedicado à comunica ção entre elas,
+desprezando ou descartando osdemais datagramas a ele destinado.
+13. A tecnologia ATM (Asynchronou s Transfer M ode) é utilizada:
+AEm redes locais.BSomente em redes que utilizam
+cabos coaxiais.
+CEm redes de longa distância.DEm redes locais desde que sejam
+utilizados cabo s de fibra ótica.Teste de Redes (Mod:01_Part_01) https://quizizz.com/print/quiz/60f2c34e051026001b459aa 5
+4 of 8 07/12/2023, 11:1314. Sobre os elementos de interconexão de redes de computadores, é correto
+afirmar que:
+AOs switches são capazes de
+encaminhar os fr ames apenas para
+a interface que esteja ligada aoequipamento com o endereço MACde destino desejado. Bbridges são capazes de separar
+domínios de broadcast.
+Crepetidores são capazes de analisar
+o conteúdo dos frames repassadosentre as redes. Dbridges não são capazes de
+separar domínio de colisão.
+15. Dentre os equipament os de redes de computadores , a função da Switch é:
+Aencaminhar os datagramas da rede
+local para a rede ampla de acordocom o número da Porta Ethernet. Bencaminhar os datagramas da rede
+local para a rede ampla de acordocom o endereço TCP
+Crealizar o chaveamento de suas
+Portas por meio do endereçoEthernet. Dencaminhar os datagramas da rede
+local para a rede ampla de acordocom o endereço IP.
+16. Em relação aos element os de interconexão de redes de computadores, é
+correto afirmar que:
+Ao repetidor, at uando na camada de
+enlace do modelo OSI, conectasegmentos de rede, amplificando etransmitindo os si nais elétricos que
+ocorrem em um segmento para o(s)
+outro(s).Bum hub é um disp ositivo que age
+como centralizador de conexões derede que atuam na camada deenlace do modelo OSI. É umaforma de repetidor multiporta.
+Cum gateway é, essencialmente,
+uma ponte mais complexa, commúltiplas interfaces. É umdispositivo de interconexão quecomuta quadros entre segmentosde uma LAN de acordo com oendereço MAC das estações.
+Duma ponte divide um domínio de
+colisão em domínios de menordimensão. Cada interface da pontedetermina um do mínio de colisão.Teste de Redes (Mod:01_Part_01) https://quizizz.com/print/quiz/60f2c34e051026001b459aa 5
+5 of 8 07/12/2023, 11:1317. Quanto às redes Ethernet, é corret o afirmar que a topologia estrela:
+Autiliza cabeamento estruturado e
+um periférico concentrador, queinterliga todas as  máquinas da rede. Binterliga fisicamente os
+computadores entre  si por um cabo
+coaxial.
+Ccircula uma fi cha comandada por
+cada micro da rede. Dpega as informações passadas pela
+camada superior (LLC) e insere emum quadro.
+18. Uma das vantagens da adoção do uso de switches, compar ando-se ao uso de
+hubs em redes ethernet, é:
+Aa ausência de colisões.
+Bque permitem sniffer sem
+necessidade de espelhamento deporta.
+Cque todas as placas de rede
+vinculadas ao switch recebam todosos pacotes destinados a todos osdestinos.Dque processa pacotes no âmbito da
+rede.
+19. Sobre a arquitetura Ether net, é correto afirmar que:
+ATem sua primeira camada atuando
+na iteração usuário/ aplicação,seguida pelas camadas de controlede link lógico (LLC) e acesso aomeio (MAC).
+BOpera nas camadas  um e dois do
+modelo OSI, defi nindo, portanto, a
+parte física da rede local.
+CTem como função principal receber
+os pacotes de dados dos protocolosde mais alto nível e transmiti-los àcamada de trans porte do modelo
+OSI. DTrabalha no mesmo nível da
+camada de aplic ação do modelo
+OSI.Teste de Redes (Mod:01_Part_01) https://quizizz.com/print/quiz/60f2c34e051026001b459aa 5
+6 of 8 07/12/2023, 11:1320. Com relação às tecnologias Ethernet , Fast Ethernet e Gigabit Ethernet é
+correto afirmar que:
+AA tecnologia que propicia maior
+velocidade de tran smissão é a Fast
+Ethernet.BA Ethernet emprega o controle de
+acesso meio CSMA/CD.
+CSó permitem os modos de
+transmissão Simplex e Half-Duplex.DEthernet e Gigabit Ethernet utilizam
+as mesmas técnicas de acesso aomeio em todos os modos detransmissão.Teste de Redes (Mod:01_Part_01) https://quizizz.com/print/quiz/60f2c34e051026001b459aa 5
+7 of 8 07/12/2023, 11:13Chave de respostas
+1. b 2. c 3. c 4. c5 .  d6 .  d7 .  b8 .  b9. a 10. c 11. d 12. b13. c 14. a 15. c 16. d17. a 18. a 19. b 20. bTeste de Redes (Mod:01_Part_01) https://quizizz.com/print/quiz/60f2c34e051026001b459aa 5
+8 of 8 07/12/2023, 11:13
