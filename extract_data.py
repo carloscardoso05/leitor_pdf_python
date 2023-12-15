@@ -54,10 +54,17 @@ def get_questions(txt_file) -> list[QuizQuestion]:
     return questions
 
 
-def get_correct(letter: str):
+def get_correct_index(letter: str):
     letter = letter.lower()
     return ['a', 'b', 'c', 'd'].index(letter)
 
+def get_correct_letter(index: str):
+    return ['a', 'b', 'c', 'd'][index]
+
+def find_correct_letter(question:QuizQuestion):
+    for i, answer in enumerate(question.answers):
+        if answer.correct:
+            return get_correct_letter(i)
 
 def get_correct_answers(txt_file):
     with open(txt_file, 'r', encoding='utf-8') as file:
@@ -84,7 +91,7 @@ def clear_txt_file(txt_file: str, unwanted_matches: list[str]):
 def check_answers(questions: list[QuizQuestion], answers: list[str]):
     questions_copy = questions[:]
     for i, question in enumerate(questions_copy):
-        correct_letter = get_correct(answers[i])
+        correct_letter = get_correct_index(answers[i])
         question.answers[correct_letter].correct = True
     return questions_copy
 
