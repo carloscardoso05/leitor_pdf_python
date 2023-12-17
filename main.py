@@ -22,13 +22,18 @@ def main(page: ft.Page):
     def convert(e):
         nonlocal files
         new_files = []
+        error_files = []
         for file in files:
-            try:
-                new_files.append(convert_quiz_pdf_to_xlsx(file))
-            except PermissionError as error:
-                update_files(error.__notes__)
-            except:
-                update_files(["Erro: arquivo inválido"])
+            # try:
+            new_files.append(convert_quiz_pdf_to_xlsx(file))
+            # except PermissionError as error:
+                # error_files.append((file, error.__notes__))
+            # except:
+                # error_files.append((file, 'Erro: Arquivo inválido'))
+        page.snack_bar = ft.SnackBar(
+            ft.Text(f'{len(new_files)} arquivos foram convertidos com sucesso'))
+        page.snack_bar.open = True
+        page.update()
 
     file_picker = ft.FilePicker(on_result=on_result_files)
     page.title = "Conversor de quiz em pdf para xlsx"

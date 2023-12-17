@@ -2,6 +2,7 @@ import fitz
 import re
 from answer import Answer
 from quiz_question import QuizQuestion
+import os
 
 
 def extract_text(path: str) -> str:
@@ -16,14 +17,12 @@ def extract_lines(path: str) -> list[str]:
     return extract_text(path).split('\n')
 
 
-def pdf_to_txt(path: str) -> str:
+def pdf_to_text(path: str) -> str:
     pdf = fitz.open(path)
-    path = path.removesuffix('.pdf') + '.txt'
-    with open(path, "wb") as file:
-        for page in pdf:
-            text = page.get_text().encode("utf8")
-            file.write(text)
-    return path
+    text = ''
+    for page in pdf:
+        text += page.get_text()
+    return text
 
 
 def try_split(match: str, text: str):
@@ -35,10 +34,8 @@ def try_split(match: str, text: str):
     return first_part, remainder
 
 
-def get_questions(txt_file) -> list[QuizQuestion]:
+def get_questions(text) -> list[QuizQuestion]:
     questions = []
-    with open(txt_file, 'r', encoding='utf-8') as file:
-        text: str = file.read()
     answers_start = re.search(r'\nChave de respostas\n', text).start()
     only_questions = text[:answers_start]
     questions_blocks = re.split(r'\n\d+\.\n', only_questions)
@@ -58,17 +55,18 @@ def get_correct_index(letter: str):
     letter = letter.lower()
     return ['a', 'b', 'c', 'd'].index(letter)
 
+
 def get_correct_letter(index: str):
     return ['a', 'b', 'c', 'd'][index]
 
-def find_correct_letter(question:QuizQuestion):
+
+def find_correct_letter(question: QuizQuestion):
     for i, answer in enumerate(question.answers):
         if answer.correct:
             return get_correct_letter(i)
 
-def get_correct_answers(txt_file):
-    with open(txt_file, 'r', encoding='utf-8') as file:
-        text: str = file.read()
+
+def get_correct_answers(text):
     answers_start = re.search(r'\nChave de respostas\n', text).end()
     only_answers = text[answers_start:]
     answers_blocks = re.split(r'\n\d+\.\s', only_answers)
@@ -77,15 +75,12 @@ def get_correct_answers(txt_file):
     return answers_blocks
 
 
-def clear_txt_file(txt_file: str, unwanted_matches: list[str]):
+def clear_text(text: str, unwanted_matches: list[str]) -> str:
     clean_text = ''
-    with open(txt_file, 'r', encoding='utf-8') as file:
-        dirty_text = file.read()
-        for block in unwanted_matches:
-            dirty_text = re.sub(block, '', dirty_text)
-        clean_text = dirty_text
-    with open(txt_file, 'w', encoding='utf-8') as file:
-        file.write(clean_text)
+    for block in unwanted_matches:
+        text = re.sub(block, '', text)
+    clean_text = text
+    return clean_text
 
 
 def check_answers(questions: list[QuizQuestion], answers: list[str]):
@@ -97,26 +92,14 @@ def check_answers(questions: list[QuizQuestion], answers: list[str]):
 
 
 unwanted_matches = [
-    '\n'.join([
-        r'.+',
-        r'https:\/\/quizizz\.com\/print\/quiz\/\w+',
-        r'\d+\sof\s\d+',
-        r'\d{2}\/\d{2}\/\d{4},\s\d{2}:\d{2}\n'
-    ]),
-    '\n'.join([
+    r'\d{2}\/\d{2}\/\d{4},\s\d{2}:\d{2}\n.+\nhttps:\/\/quizizz\.com\/print\/quiz\/.+\n.+\n',
+    r'.+\nhttps:\/\/quizizz\.com\/print\/quiz\/.+\n.+\n\d{2}\/\d{2}\/\d{4},\s\d{2}:\d{2}\n',
+    r'\n'.join([
         r'.+',
         r'.+',
-        # r'\d+\sQuest.+',
         r'NOME.*',
         r'TURMA.*',
         r'DATA.*',
         r'.+\n'
     ])
 ]
-if __name__ == '__main__':
-    txt_file = pdf_to_txt('teste.pdf')
-    clear_txt_file(txt_file, unwanted_matches)
-    answers = get_correct_answers(txt_file)
-    questions = get_questions(txt_file)
-    questions = check_answers(questions, answers)
-    print(*questions)

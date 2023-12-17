@@ -6,24 +6,29 @@ import os
 
 def convert_quiz_pdf_to_xlsx(file_name: str) -> str:
     file_path, extension = os.path.splitext(file_name)
-    txt_file = pdf_to_txt(file_name)
-    clear_txt_file(txt_file, unwanted_matches)
-    answers = get_correct_answers(txt_file)
-    questions = get_questions(txt_file)
+    text = pdf_to_text(file_name)
+    clean_text = clear_text(text, unwanted_matches)
+    answers = get_correct_answers(clean_text)
+    questions = get_questions(clean_text)
     questions = check_answers(questions, answers)
 
     questions_table = [
-        [question.question,
-         *[answer.text for answer in question.answers],
-         find_correct_letter(question),
-         question.difficulty] for question in questions
+        [
+            question.question,
+            *[answer.text for answer in question.answers],
+            find_correct_letter(question),
+            question.difficulty
+        ] for question in questions
     ]
 
-    question_columns = ['question_text', 'a','b','c','d','correct','difficulty']
-    
+    question_columns = ['question_text', 'a',
+                        'b', 'c', 'd', 'correct', 'difficulty']
+
     df = pd.DataFrame(data=questions_table, columns=question_columns)
+    excel_path = file_path+".xlsx"
     try:
-        df.to_excel(file_path+".xlsx", sheet_name='quiz')
+        df.to_excel(excel_path, sheet_name='quiz', index_label='question_id')
     except PermissionError as error:
-        error.add_note(f'Erro: arquivo {file_path+".xlsx"} aberto em outro processo')
+        error.add_note(
+            f'Erro: arquivo {excel_path} aberto em outro processo')
         raise error
