@@ -1,6 +1,7 @@
 env
-__pycache__
+fletpy
 dist
+__pycache__
 build
 main.spec
 teste.pdf
