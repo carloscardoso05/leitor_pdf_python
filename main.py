@@ -1,6 +1,5 @@
 import flet as ft
-from convert_to_xlsx import convert_quiz_pdf_to_xlsx
-
+from reader import convert_txt_to_xlxs
 
 def main(page: ft.Page):
     files = []
@@ -24,19 +23,20 @@ def main(page: ft.Page):
         new_files = []
         error_files = []
         for file in files:
-            # try:
-            new_files.append(convert_quiz_pdf_to_xlsx(file))
-            # except PermissionError as error:
-                # error_files.append((file, error.__notes__))
-            # except:
-                # error_files.append((file, 'Erro: Arquivo inválido'))
+            try:
+                new_files.append(convert_txt_to_xlxs(file))
+            except PermissionError as error:
+                error_files.append((file, error.__notes__))
+            except Exception as error:
+                error_files.append((file, 'Erro: Arquivo inválido'))
+                print(error)
         page.snack_bar = ft.SnackBar(
             ft.Text(f'{len(new_files)} arquivos foram convertidos com sucesso'))
         page.snack_bar.open = True
         page.update()
 
     file_picker = ft.FilePicker(on_result=on_result_files)
-    page.title = "Conversor de quiz em pdf para xlsx"
+    page.title = "Conversor de quiz em txt para xlsx"
     page.scroll = ft.ScrollMode.ALWAYS
     page.padding = ft.padding.all(20)
     page.overlay.append(file_picker)
@@ -49,7 +49,7 @@ def main(page: ft.Page):
                     text='Selecionar arquivos',
                     icon=ft.icons.UPLOAD_FILE,
                     on_click=lambda x: file_picker.pick_files(
-                        allow_multiple=True, allowed_extensions=['pdf'])
+                        allow_multiple=True, allowed_extensions=['txt'])
                 ),
                 ft.ElevatedButton(
                     text='Converter',
