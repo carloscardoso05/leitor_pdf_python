@@ -26,7 +26,7 @@ def main(page: ft.Page):
             try:
                 new_files.append(convert_txt_to_xlxs(file))
             except PermissionError as error:
-                error_files.append((file, error.__notes__))
+                error_files.append((file, error))
             except Exception as error:
                 error_files.append((file, 'Erro: Arquivo inválido'))
                 print(error)

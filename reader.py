@@ -90,8 +90,14 @@ class Reader:
 
 def convert_txt_to_xlxs(path: str):
     base, extension = os.path.splitext(path)
-    with open(path, "r") as file:
-        content = file.readlines()
+    try:
+        with open(path, "r", encoding="utf-8") as file:
+            content = file.readlines()
+    except:
+        with open(path, "r", encoding="latin-1") as file:
+            content = file.readlines()
+    
+        
 
     questions = []
     r = Reader(content)
