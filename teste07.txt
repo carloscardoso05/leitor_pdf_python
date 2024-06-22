@@ -1,0 +1,361 @@
+1.
+NÃO é considerado um hardware:
+a)CPU (Unidade Central de processamento)
+b)HD (Disco rígido)
+c)Sistema Operacional
+d)Monitor
+
+2.
+Pode-se afirmar que a Unidade Central de Processamento (UCP) do computador é um tipo de:
+a)Hardware
+b)Software
+c)Memória secundária
+d)Programa
+
+3.
+Um computador qualquer conectado à Internet com um endereço de IP (Internet Protocol) é comumente chamado de:
+a)DNS
+b)Host
+c)URL
+d)VPN
+
+4.
+Trata-se de um dispositivo de entrada dotado de botões que provocam deslocamento análogo de um cursor na tela.
+a)Monitor
+b)Mouse
+c)Pen drive
+d)Impressora
+
+5.
+Considere o cenário em que dois computadores se comunicam pela Internet. A ação de enviar dados do computador local para o computador remoto é chamada de:
+a)Down stream
+b)Download
+c)Upload
+d)Update
+
+6.
+__________ é o principal protocolo de envio e recebimento de dados na internet. E é dividido em quatro camadas: aplicação, transporte, rede e interface. Cada uma delas é responsável pela execução de tarefas distintas.
+a)Firewall
+b)TCP/IP
+c)PING
+d)HTTP
+
+7.
+A topologia e o equipamento central que interligam os computadores são, respectivamente:
+a)Estrela e Switch
+b)Barramento e HUB
+c)Barramento e Switch
+d)Estrela e Bridge
+
+8.
+O equipamento que permite estabelecer a comunicação entre duas redes LAN (local area network) distintas que empregam cabeamento padrão UTP.
+a)Switch
+b)Storage
+c)Modem
+d)Conector de fibra óptica
+
+9.
+Numa intranet fechada (sem acesso à internet) pode-se definir a rede de computadores como uma:
+a)LAN
+b)VPN
+c)RAN
+d)WAN
+
+10.
+O padrão universal atualmente utilizado para comunicação entre computadores via rede de dados é o protocolo TCP/IP. O método de transmissão de dados utilizado pela camada de enlace do TCP/IP chama-se:
+a)Frames de dados
+b)Strings endereçados
+c)Blocos sequenciados
+d)Pacotes endereçados
+
+11.
+Na realidade, o _________ é um conjunto de protocolos. Esse grupo é dividido em quatro camadas: aplicação, transporte, rede e interface. Cada uma delas é responsável pela execução de tarefas distintas. Essa divisão em camadas é uma forma de garantir a integridade dos dados que trafegam pela rede.
+a)HTTPS
+b)FTP
+c)TCP/IP
+d)DNS
+
+12.
+A tensão que o computador trabalha internamente é:
+a)Alternada
+b)Alternada e Contínua
+c)Contínua
+d)N.D.A
+
+13.
+A fonte de alimentação de um computador é responsável, dentre outras coisas, de:
+a)Transformar energia contínua em energia alternada
+b)Transformar potência contínua em potência alternada
+c)Transformar energia alternada em energia contínua
+d)Transformar potência alternada em potência contínua
+
+14.
+Um byte é formado por
+a)2 bits
+b)4 bits
+c)8 bits
+d)32 bits
+
+15.
+1 Megabyte equivale a
+a)1024 bytes
+b)1024 bits
+c)1024 kilobyte
+d)1024 gigabytes
+
+16.
+A menor unidade lógica de um sistema digital computadorizado é chamado de
+a)kilobyte
+b)bit
+c)byte
+d)megabyte
+
+17.
+Num processador a ULA (Unidade Lógico-Aritmética) é responsável por:
+a)Controla a atividade do processador.
+b)Guarda as instruções necessárias ao funcionamento das aplicações ativas
+c)Responsável pelos cálculos numéricos
+d)Guarda as instruções que provavelmente irão ser necessárias
+
+18.
+Num processador a UC(Unidade de Controle) é responsável por:
+a)Controla a atividade do processador.
+b)Guarda as instruções necessárias ao funcionamento das aplicações ativas
+c)Responsável pelos cálculos numéricos
+d)Guarda as instruções que provavelmente irão ser necessárias
+
+19.
+Num processador a CACHE é responsável por:
+a)Controla a atividade do processador.
+b)Guarda as instruções necessárias ao funcionamento das aplicações ativas
+c)Responsável pelos cálculos numéricos
+d)Guarda as instruções que provavelmente irão ser necessárias para a Unidade Central de Processamento (UCP).
+
+20.
+Selecione o tipo de barramento responsável pela transferência de dados num sistema computacional.
+a)Barramento de controle
+b)Barramento de sistema
+c)Barramento de endereços
+d)Barramento de dados
+
+21.
+Indique o tipo de barramento responsável pelo controle do processamento num sistema computacional.
+a)Barramento de controle
+b)Barramento de sistema
+c)Barramento de endereços
+d)Barramento de dados
+
+22.
+Indique o tipo de barramento responsável indicar a localização exata para onde se devem deslocar os dados num sistema computacional.
+a)Barramento de controle
+b)Barramento de sistema
+c)Barramento de endereços
+d)Barramento de dados
+
+23.
+Qual a memória responsável pelo armazenamento de instruções básicas sobre o hardware do PC, nomeadamente rotinas de arranque, rotinas de teste de dispositivos, instruções para que o CPU reconheça e trabalhe corretamente com os dispositivos de E/S.
+a)RAM
+b)ROM
+c)CACHE
+d)REGISTRADOR
+
+24.
+Indique quais as memórias responsáveis por gravar grandes quantidades de dados, que não são perdidos com o encerramento do computador.
+a)Memórias primárias
+b)Memórias secundárias
+c)Registradores
+d)Memórias Cache
+
+25.
+Observe a imagem.Indique o que pode ser encaixado no n.º 5
+a)CPU
+b)Placa Gráfica
+c)Memória RAM
+d)Mouse/teclado
+
+26.
+Observe a imagem.Indique o que pode ser encaixado no n.º 7
+a)Disco HDD
+b)Memória RAM
+c)Placa Gráfica
+d)Ecrã / monitor
+
+27.
+Observe a imagem.Indique o que pode ser encaixado no n.º 1
+a)Placa Gráfica
+b)Memória RAM
+c)Placa Rede
+d)CPU
+
+28.
+Na lista seguinte seleciona os processadores do fabricante INTEL:
+a)ARM
+b)Athlon
+c)i7
+d)Duron
+
+29.
+Na lista seguinte seleciona os processadores do fabricante AMD:
+a)Ryzen
+b)Celeron
+c)i7
+d)Core 2 Duo
+
+30.
+Indique o tipo de RAM Estática
+a)DRAM
+b)SRAM
+c)NVRAM
+d)EEPROM
+
+Chaves de resposta
+1.
+
+c)
+
+Sistema Operacional
+2.
+
+a)
+
+Hardware
+3.
+
+b)
+
+Host
+4.
+
+b)
+
+Mouse
+5.
+
+c)
+
+Upload
+6.
+
+b)
+
+TCP/IP
+7.
+
+a)
+
+Estrela e Switch
+8.
+
+a)
+
+Switch
+9.
+
+a)
+
+LAN
+10.
+
+a)
+
+Frames de dados
+11.
+
+c)
+
+TCP/IP
+12.
+
+c)
+
+Contínua
+13.
+
+c)
+
+Transformar energia alternada em energia contínua
+14.
+
+c)
+
+8 bits
+15.
+
+c)
+
+1024 kilobyte
+16.
+
+b)
+
+bit
+17.
+
+c)
+
+Responsável pelos cálculos numéricos
+18.
+
+a)
+
+Controla a atividade do processador.
+19.
+
+d)
+
+Guarda as instruções que provavelmente irão ser necessárias para a Unidade Central de Processamento (UCP).
+20.
+
+d)
+
+Barramento de dados
+21.
+
+a)
+
+Barramento de controle
+22.
+
+c)
+
+Barramento de endereços
+23.
+
+b)
+
+ROM
+24.
+
+b)
+
+Memórias secundárias
+25.
+
+b)
+
+Placa Gráfica
+26.
+
+b)
+
+Memória RAM
+27.
+
+d)
+
+CPU
+28.
+
+c)
+
+i7
+29.
+
+a)
+
+Ryzen
+30.
+
+b)
+
+SRAM

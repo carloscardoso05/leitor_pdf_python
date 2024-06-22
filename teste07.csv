@@ -1,0 +1,31 @@
+﻿question_id;question_text;a;b;c;d;correct;difficulty
+0;NÃO é considerado um hardware:;CPU (Unidade Central de processamento);HD (Disco rígido);Sistema Operacional;Monitor;c;0
+1;Pode-se afirmar que a Unidade Central de Processamento (UCP) do computador é um tipo de:;Hardware;Software;Memória secundária;Programa;a;0
+2;Um computador qualquer conectado à Internet com um endereço de IP (Internet Protocol) é comumente chamado de:;DNS;Host;URL;VPN;b;0
+3;Trata-se de um dispositivo de entrada dotado de botões que provocam deslocamento análogo de um cursor na tela.;Monitor;Mouse;Pen drive;Impressora;b;0
+4;Considere o cenário em que dois computadores se comunicam pela Internet. A ação de enviar dados do computador local para o computador remoto é chamada de:;Down stream;Download;Upload;Update;c;0
+5;__________ é o principal protocolo de envio e recebimento de dados na internet. E é dividido em quatro camadas: aplicação, transporte, rede e interface. Cada uma delas é responsável pela execução de tarefas distintas.;Firewall;TCP/IP;PING;HTTP;b;0
+6;A topologia e o equipamento central que interligam os computadores são, respectivamente:;Estrela e Switch;Barramento e HUB;Barramento e Switch;Estrela e Bridge;a;0
+7;O equipamento que permite estabelecer a comunicação entre duas redes LAN (local area network) distintas que empregam cabeamento padrão UTP.;Switch;Storage;Modem;Conector de fibra óptica;a;0
+8;Numa intranet fechada (sem acesso à internet) pode-se definir a rede de computadores como uma:;LAN;VPN;RAN;WAN;a;0
+9;O padrão universal atualmente utilizado para comunicação entre computadores via rede de dados é o protocolo TCP/IP. O método de transmissão de dados utilizado pela camada de enlace do TCP/IP chama-se:;Frames de dados;Strings endereçados;Blocos sequenciados;Pacotes endereçados;a;0
+10;Na realidade, o _________ é um conjunto de protocolos. Esse grupo é dividido em quatro camadas: aplicação, transporte, rede e interface. Cada uma delas é responsável pela execução de tarefas distintas. Essa divisão em camadas é uma forma de garantir a integridade dos dados que trafegam pela rede.;HTTPS;FTP;TCP/IP;DNS;c;0
+11;A tensão que o computador trabalha internamente é:;Alternada;Alternada e Contínua;Contínua;N.D.A;c;0
+12;A fonte de alimentação de um computador é responsável, dentre outras coisas, de:;Transformar energia contínua em energia alternada;Transformar potência contínua em potência alternada;Transformar energia alternada em energia contínua;Transformar potência alternada em potência contínua;c;0
+13;Um byte é formado por;2 bits;4 bits;8 bits;32 bits;c;0
+14;1 Megabyte equivale a;1024 bytes;1024 bits;1024 kilobyte;1024 gigabytes;c;0
+15;A menor unidade lógica de um sistema digital computadorizado é chamado de;kilobyte;bit;byte;megabyte;b;0
+16;Num processador a ULA (Unidade Lógico-Aritmética) é responsável por:;Controla a atividade do processador.;Guarda as instruções necessárias ao funcionamento das aplicações ativas;Responsável pelos cálculos numéricos;Guarda as instruções que provavelmente irão ser necessárias;c;0
+17;Num processador a UC(Unidade de Controle) é responsável por:;Controla a atividade do processador.;Guarda as instruções necessárias ao funcionamento das aplicações ativas;Responsável pelos cálculos numéricos;Guarda as instruções que provavelmente irão ser necessárias;a;0
+18;Num processador a CACHE é responsável por:;Controla a atividade do processador.;Guarda as instruções necessárias ao funcionamento das aplicações ativas;Responsável pelos cálculos numéricos;Guarda as instruções que provavelmente irão ser necessárias para a Unidade Central de Processamento (UCP).;d;0
+19;Selecione o tipo de barramento responsável pela transferência de dados num sistema computacional.;Barramento de controle;Barramento de sistema;Barramento de endereços;Barramento de dados;d;0
+20;Indique o tipo de barramento responsável pelo controle do processamento num sistema computacional.;Barramento de controle;Barramento de sistema;Barramento de endereços;Barramento de dados;a;0
+21;Indique o tipo de barramento responsável indicar a localização exata para onde se devem deslocar os dados num sistema computacional.;Barramento de controle;Barramento de sistema;Barramento de endereços;Barramento de dados;c;0
+22;Qual a memória responsável pelo armazenamento de instruções básicas sobre o hardware do PC, nomeadamente rotinas de arranque, rotinas de teste de dispositivos, instruções para que o CPU reconheça e trabalhe corretamente com os dispositivos de E/S.;RAM;ROM;CACHE;REGISTRADOR;b;0
+23;Indique quais as memórias responsáveis por gravar grandes quantidades de dados, que não são perdidos com o encerramento do computador.;Memórias primárias;Memórias secundárias;Registradores;Memórias Cache;b;0
+24;Observe a imagem.Indique o que pode ser encaixado no n.º 5;CPU;Placa Gráfica;Memória RAM;Mouse/teclado;b;0
+25;Observe a imagem.Indique o que pode ser encaixado no n.º 7;Disco HDD;Memória RAM;Placa Gráfica;Ecrã / monitor;b;0
+26;Observe a imagem.Indique o que pode ser encaixado no n.º 1;Placa Gráfica;Memória RAM;Placa Rede;CPU;d;0
+27;Na lista seguinte seleciona os processadores do fabricante INTEL:;ARM;Athlon;i7;Duron;c;0
+28;Na lista seguinte seleciona os processadores do fabricante AMD:;Ryzen;Celeron;i7;Core 2 Duo;a;0
+29;Indique o tipo de RAM Estática;DRAM;SRAM;NVRAM;EEPROM;b;0

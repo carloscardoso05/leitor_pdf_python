@@ -73,7 +73,10 @@ class Reader:
     @staticmethod
     def get_question_id(line: str) -> int:
         number_string = ''.join(filter(str.isdigit, line))
-        return int(number_string)
+        try:
+            return int(number_string)
+        except:
+            raise Exception(f"{number_string} não pode ser convertido na linha:\n{line}")
 
 
     @staticmethod
@@ -86,7 +89,7 @@ class Reader:
 
     @staticmethod
     def is_choice(line: str) -> bool:
-        return re.search(r'[abcd]\)', line) is not None
+        return re.search(r'^[abcd]\)', line) is not None
 
 def convert_txt_to_xlxs(path: str):
     base, extension = os.path.splitext(path)
@@ -121,6 +124,3 @@ def convert_txt_to_xlxs(path: str):
         sheet.append(row)
 
     wb.save(base + '.xlsx')
-
-if __name__ == "__main__":
-    convert_txt_to_xlxs()
